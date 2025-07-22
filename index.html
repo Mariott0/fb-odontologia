@@ -445,20 +445,37 @@
         .fade-in {
             animation: fadeIn 1s ease forwards;
         }
-        .logo img {
-        height: 50px;
-        display: block;
-        object-fit: contain;
-        }       
+        .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #3f3402, #b99864);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+       
 
     </style>
 </head>
 <body>
-    <header>
+<header>
   <div class="container header-container">
-    <a href="#" class="logo">
-        <img src="./img/logo.png" alt="FB Odontologia Logo" />
-    </a>
+<div class="logo">
+    <img src="./img/logo.png" alt="FB Odontologia Logo" />
+    <span class="logo-text">FB Odontologia</span>
+</div>
     <button class="mobile-menu-btn">☰</button>
     <nav>
       <ul>
