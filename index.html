@@ -445,23 +445,31 @@
         .fade-in {
             animation: fadeIn 1s ease forwards;
         }
+        .logo img {
+        height: 50px;
+        display: block;
+        object-fit: contain;
+        }       
+
     </style>
 </head>
 <body>
     <header>
-        <div class="container header-container">
-            <a href="#" class="logo">FB<span>Odontologia</span></a>
-            <button class="mobile-menu-btn">☰</button>
-            <nav>
-                <ul>
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <div class="container header-container">
+    <a href="#" class="logo">
+        <img src="./img/logo.png" alt="FB Odontologia Logo" />
+    </a>
+    <button class="mobile-menu-btn">☰</button>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
     <section class="hero" id="home">
         <div class="container fade-in">
