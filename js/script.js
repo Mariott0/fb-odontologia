@@ -33,3 +33,5 @@ const fadeInOnScroll = () => {
 
 window.addEventListener('scroll', fadeInOnScroll);
 window.addEventListener('load', fadeInOnScroll);
+
+
